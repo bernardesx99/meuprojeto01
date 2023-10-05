@@ -22,23 +22,13 @@ bool exibirMenu = true;
 // Realiza o loop do menu01
 while (exibirMenu)
 {
-    Console.Clear();
-    Console.WriteLine("Digite a sua opção:");
-    Console.WriteLine("1 - Cadastrar veículo");
-    Console.WriteLine("2 - Remover veículo");
+    
     Console.WriteLine("3 - Listar veículos");
     Console.WriteLine("4 - Encerrar");
 
     switch (Console.ReadLine())
     {
-        case "1":
-            es.AdicionarVeiculo();
-            break;
-
-        case "2":
-            es.RemoverVeiculo();
-            break;
-
+       
         case "3":
             es.ListarVeiculos();
             break;
